@@ -1,0 +1,135 @@
+ *{
+    padding: 0px;
+    margin: :0px;
+}
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	
+	animation: gradient 5s ease infinite;
+
+}
+.fin{
+    text-align: center;
+}
+.container{
+    background: #0e0e0e;
+    box-shadow: 0 0 10px rgba(108, 196, 247, 0.7);
+    height: 500px;
+    width: 400px;
+    padding: 10px;
+    border: 3px solid #df41ff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+.output{
+    width: 99%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    background: #000000;
+    border: 3px solid #00ffff;
+    border-radius: 20px;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: right;
+    font-size: 24px;
+    color: #ffffff;
+}
+.inputs{
+    background: rgb(0, 0, 0);
+    height: 75%;
+    width:99%;
+    border: 3px solid #00ffff;
+    display:flex;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    flex-direction: column;
+
+}
+.rowone{
+    height:100px;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50%; 
+    border: none;
+    
+    color: #00ffff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+}
+.rowtwo{
+    height:100px;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50%; 
+    border: none;
+    
+    color: #00ffff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+}
+.rowthree{
+    height:100px;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.rowfour{
+    height:100px;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50%; 
+    border: none;
+    
+    color: #00ffff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+}
+.rowone button{
+    width: 40px;
+    height: 40px;
+    border-radius: 7px;
+}
+.rowtwo button{
+    width: 40px;
+    height: 40px;
+    border-radius: 7px;
+}
+.rowthree button{
+    width: 40px;
+    height: 40px;
+    border-radius: 7px;
+}
+.rowfour button{
+    width: 40px;
+    height: 40px;
+    border-radius: 7px;
+}
+button:hover{
+    scale:1.15;
+    background: #00ffff;
+    color: #1a1a1a;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.7);
+    transition: ease-in;
+}
+
+
